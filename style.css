@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none !important;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  background: url(bg.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hbd-image {
+  height: 50%;
+  width: 270px;
+  height: auto;
+}
+
+.mom-image {
+  height: 50%;
+  width: 270px;
+  height: auto;
+}
+
+.hbd-image img,
+.mom-image img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain;
+}
